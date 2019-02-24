@@ -70,7 +70,7 @@ void CalcCorners(const Mat& H, const Mat& src)
 
 }
 
-int main22(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	Mat image01 = imread("dst01.jpg", 1);    //ÓÒÍ¼
 	Mat image02 = imread("ºÏ²¢01.png", 1);    //×óÍ¼

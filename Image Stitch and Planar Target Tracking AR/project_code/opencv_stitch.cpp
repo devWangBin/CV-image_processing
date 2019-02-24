@@ -11,7 +11,7 @@ Stitcher::Mode mode = Stitcher::PANORAMA;
 vector<Mat> imgs;
 string result_name = "result.jpg";
 
-int main333(int argc, char* argv[]) {
+int main(int argc, char* argv[]) {
 
 	Mat img1 = imread("01.jpg");	
 	Mat img2 = imread("02.jpg");

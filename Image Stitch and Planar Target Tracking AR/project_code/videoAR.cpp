@@ -310,7 +310,7 @@ int main() {
 
 
 
-int main333()
+int main()
 {
 	//VideoCapture capture;
 	//capture.open("video_pro.mp4");//VideoCapture类的方法
