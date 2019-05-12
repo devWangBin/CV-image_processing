@@ -13,7 +13,7 @@ int main(int, char** argv)
 	int beta = 0;       /*< Simple brightness control */
 
 	Mat image = imread("a.png");
-	//cvtColor(image, image, CV_BGR2GRAY);//תΪ�Ҷ�ͼ
+	//cvtColor(image, image, CV_BGR2GRAY);//转为灰度图
 	Mat new_image = Mat::zeros(image.size(), image.type());
 
 	cout << " Basic Linear Transforms " << endl;
